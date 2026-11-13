@@ -6,7 +6,7 @@ This project explores historical stock market data and quarterly revenue for Tes
 
 Using Python, I collected stock market data, extracted revenue information through web scraping, cleaned and prepared datasets, and visualized the results using Matplotlib.
 
-The project was completed as part of my learning journey in Python and Data Science, following a guided IBM Skills Network lab.
+The project was completed as part of my learning journey in Python and Data Science, following a guided Data Science in Python Course.
 
 ## Project Objectives
 
