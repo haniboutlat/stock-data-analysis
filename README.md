@@ -26,7 +26,7 @@ The project was completed as part of my learning journey in Python and Data Scie
 | Requests | Retrieving webpage content |
 | BeautifulSoup | HTML parsing and web scraping |
 | Matplotlib | Data visualization |
-| Jupyter Notebook | Development environment |
+| Jupyter Notebook | Interactive development environment |
 
 ## Project Structure
 
@@ -34,17 +34,27 @@ The project was completed as part of my learning journey in Python and Data Scie
 stock-data-analysis/
 │
 ├── README.md
-└── stock_data_analysis.ipynb
+├── stock_data_analysis.ipynb
+├── stock_data_analysis.py
+├── Tesla Historical Revenue & Stock Data.png
+└── GameStop Historical Revenue & Stock Data.png
 ```
+
+- `.ipynb` – Interactive Jupyter Notebook version.
+- `.py` – Standalone Python script version.
+- `.png` – Generated stock price and revenue visualizations.
 
 ## Visualizations
 
-The project includes visualizations for:
+The project includes visualizations comparing historical share prices and quarterly revenue for both companies.
 
-- **Tesla:** Historical share prices and quarterly revenue.
-- **GameStop:** Historical share prices and quarterly revenue.
+### Tesla – Historical Revenue & Stock Data
 
-The graphs are generated using Matplotlib.
+![Tesla Historical Revenue & Stock Data](Tesla%20Historical%20Revenue%20%26%20Stock%20Data.png)
+
+### GameStop – Historical Revenue & Stock Data
+
+![GameStop Historical Revenue & Stock Data](GameStop%20Historical%20Revenue%20%26%20Stock%20Data.png)
 
 ## Data Sources
 
@@ -63,6 +73,15 @@ Through this project, I gained practical experience with:
 - Cleaning and filtering datasets.
 - Extracting and preparing financial data.
 - Creating data visualizations using Matplotlib.
+- Working with both Jupyter Notebooks and standalone Python scripts.
+
+## Installation
+
+Install the required dependencies:
+
+```bash
+python -m pip install yfinance pandas requests beautifulsoup4 matplotlib
+```
 
 ## Disclaimer
 
